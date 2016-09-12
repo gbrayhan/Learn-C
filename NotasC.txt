@@ -1,0 +1,21 @@
+C y C++ en linux
+Programa simple C++
+g++ HelloWord.cpp -o HelloWord
+_______________________________
+
+
+gcc -Wall HelloWord.c -o HelloWord
+
+-Wall -->> Avisos del Compilador
+-o [Nombre] -->>Si se omite esta directiva que sirve para dar nombre el compilador pondra como nombre al archivo "a.out"
+
+
+La diferencia de declarar los include con "" y con <> es que la primera "" busca el archivo en el directorio actual antes de buscarlo en el directorio de los archivos de cabeceras del sistema
+_________________________________________________________
+
+Programas Multiplemente enlazados
+gcc -Wall Main.c Enlace.c -o ProgramaEnlazado
+
+
+
+
